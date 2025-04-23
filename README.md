@@ -1,4 +1,4 @@
-# USDM to TDM Converter
+# Extract BC used by SoA from USDM JSON
 
 This script extracts biomedical concepts (BCs) from Unified Study Data Model (USDM) JSON data and maps them to study design activities using JSONata expressions.
 
