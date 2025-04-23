@@ -1,0 +1,369 @@
+[
+  {
+    "activityId": "Activity_1",
+    "activityName": "Informed consent",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_2",
+    "activityName": "Inclusion/exclusion criteria",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_3",
+    "activityName": "Patient number assigned",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_4",
+    "activityName": "Demographics",
+    "bc": [
+      {
+        "usdmBcId": "BiomedicalConcept_20",
+        "concept": "Sex",
+        "bcId": "C28421",
+        "bcShortname": "Sex",
+        "bcType": "Biomedical Concept",
+        "dataElements": "Sex",
+        "dataTypes": "string"
+      },
+      {
+        "usdmBcId": "BiomedicalConcept_21",
+        "concept": "Race",
+        "bcId": "C17049",
+        "bcShortname": "Race",
+        "bcType": "Biomedical Concept",
+        "dataElements": "Race",
+        "dataTypes": "string"
+      }
+    ]
+  },
+  {
+    "activityId": "Activity_5",
+    "activityName": "Hachinski",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_6",
+    "activityName": "MMSE",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_7",
+    "activityName": "Physical examination",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_8",
+    "activityName": "Medical history",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_9",
+    "activityName": "Habits",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_10",
+    "activityName": "Chest X-ray",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_11",
+    "activityName": "Apo E genotyping",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_12",
+    "activityName": "Patient randomised",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_13",
+    "activityName": "Vital signs / Temperature",
+    "bc": [
+      {
+        "usdmBcId": "BiomedicalConcept_22",
+        "concept": "Temperature",
+        "bcId": "C174446",
+        "bcShortname": "TEMP",
+        "bcType": "Dataset Specialization",
+        "dataElements": "VSTESTCD, VSORRES, VSORRESU, VSLOC",
+        "dataTypes": "null, float, null, null"
+      },
+      {
+        "usdmBcId": "BiomedicalConcept_23",
+        "concept": "Weight",
+        "bcId": "C25208",
+        "bcShortname": "WEIGHT",
+        "bcType": "Dataset Specialization",
+        "dataElements": "VSTESTCD, VSORRES, VSORRESU",
+        "dataTypes": "null, float, null"
+      },
+      {
+        "usdmBcId": "BiomedicalConcept_24",
+        "concept": "Height",
+        "bcId": "C25347",
+        "bcShortname": "HEIGHT",
+        "bcType": "Dataset Specialization",
+        "dataElements": "VSTESTCD, VSORRES, VSORRESU",
+        "dataTypes": "null, float, null"
+      }
+    ]
+  },
+  {
+    "activityId": "Activity_14",
+    "activityName": "Ambulatory ECG placed",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_15",
+    "activityName": "Ambulatory ECG removed",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_16",
+    "activityName": "ECG",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_17",
+    "activityName": "Placebo TTS test",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_18",
+    "activityName": "CT scan",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_19",
+    "activityName": "Concomitant medications",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_20",
+    "activityName": "Hematology",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_21",
+    "activityName": "Chemistry",
+    "bc": [
+      {
+        "usdmBcId": "BiomedicalConcept_25",
+        "concept": "Alanine Aminotransferase Concentration in Serum/Plasma",
+        "bcId": "C64433",
+        "bcShortname": "ALT",
+        "bcType": "Dataset Specialization",
+        "dataElements": "LBTESTCD, LBORRES, LBORRESU, LBSPEC, LBFAST",
+        "dataTypes": "null, float, null, null, null"
+      },
+      {
+        "usdmBcId": "BiomedicalConcept_26",
+        "concept": "Albumin Presence in Urine",
+        "bcId": "C64431",
+        "bcShortname": "ALB",
+        "bcType": "Dataset Specialization",
+        "dataElements": "LBTESTCD, LBORRES, LBSPEC, LBFAST",
+        "dataTypes": "null, text, null, null"
+      },
+      {
+        "usdmBcId": "BiomedicalConcept_27",
+        "concept": "Alkaline Phosphatase Concentration in Serum/Plasma",
+        "bcId": "C64432",
+        "bcShortname": "ALP",
+        "bcType": "Dataset Specialization",
+        "dataElements": "LBTESTCD, LBORRES, LBORRESU, LBSPEC, LBFAST",
+        "dataTypes": "null, float, null, null, null"
+      },
+      {
+        "usdmBcId": "BiomedicalConcept_28",
+        "concept": "Aspartate Aminotransferase in Serum/Plasma",
+        "bcId": "C64467",
+        "bcShortname": "AST",
+        "bcType": "Dataset Specialization",
+        "dataElements": "LBTESTCD, LBORRES, LBORRESU, LBSPEC, LBFAST",
+        "dataTypes": "null, float, null, null, null"
+      },
+      {
+        "usdmBcId": "BiomedicalConcept_29",
+        "concept": "Creatinine Concentration in Urine",
+        "bcId": "C64547",
+        "bcShortname": "CREAT",
+        "bcType": "Dataset Specialization",
+        "dataElements": "LBTESTCD, LBORRES, LBORRESU, LBSPEC, LBFAST",
+        "dataTypes": "null, float, null, null, null"
+      },
+      {
+        "usdmBcId": "BiomedicalConcept_30",
+        "concept": "Potassium Concentration in Urine",
+        "bcId": "C64853",
+        "bcShortname": "K",
+        "bcType": "Dataset Specialization",
+        "dataElements": "LBTESTCD, LBORRES, LBORRESU, LBSPEC, LBFAST",
+        "dataTypes": "null, float, null, null, null"
+      },
+      {
+        "usdmBcId": "BiomedicalConcept_31",
+        "concept": "Sodium Concentration in Urine",
+        "bcId": "C64809",
+        "bcShortname": "SODIUM",
+        "bcType": "Dataset Specialization",
+        "dataElements": "LBTESTCD, LBORRES, LBORRESU, LBSPEC, LBFAST",
+        "dataTypes": "null, float, null, null, null"
+      }
+    ]
+  },
+  {
+    "activityId": "Activity_22",
+    "activityName": "Uninalysis",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_23",
+    "activityName": "Plasma Specimen (Xanomeline)",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_24",
+    "activityName": "Hemoglobin A1C",
+    "bc": [
+      {
+        "usdmBcId": "BiomedicalConcept_32",
+        "concept": "Hemoglobin A1C Concentration in Blood",
+        "bcId": "C64849",
+        "bcShortname": "HBA1C",
+        "bcType": "Dataset Specialization",
+        "dataElements": "LBTESTCD, LBORRES, LBORRESU, LBSPEC, LBFAST",
+        "dataTypes": "null, float, null, null, null"
+      }
+    ]
+  },
+  {
+    "activityId": "Activity_25",
+    "activityName": "Study drug",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_26",
+    "activityName": "TTS Acceptability Survey",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_27",
+    "activityName": "ADAS-Cog",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_28",
+    "activityName": "CIBIC+",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_29",
+    "activityName": "DAD",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_30",
+    "activityName": "NPI-X",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_31",
+    "activityName": "Adverse events",
+    "bc": [
+      {
+        "usdmBcId": "BiomedicalConcept_1",
+        "concept": "Adverse Event Prespecified",
+        "bcId": "C179175",
+        "bcShortname": "Solicited Adverse Event",
+        "bcType": "Dataset Specialization",
+        "dataElements": "AETERM, AEDECOD, AEPRESP, AELOC, AESEV, AESER, AEACN, AEACNOTH, AEREL, AERELNST, AEPATT, AEOUT, AESCAN, AESCONG, AESDISAB, AESDTH, AESHOSP, AESLIFE, AESOD, AESMIE, AECONTRT, AESTDTC, AEENDTC",
+        "dataTypes": "text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, datetime, datetime"
+      }
+    ]
+  },
+  {
+    "activityId": "Activity_32",
+    "activityName": "Check adverse events",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_33",
+    "activityName": "Supine",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_34",
+    "activityName": "Vital Signs Supine",
+    "bc": [
+      {
+        "usdmBcId": "BiomedicalConcept_14",
+        "concept": "Systolic Blood Pressure",
+        "bcId": "C25298",
+        "bcShortname": "SYSBP",
+        "bcType": "Dataset Specialization",
+        "dataElements": "VSTESTCD, VSORRES, VSORRESU, VSPOS, VSLOC, VSLAT",
+        "dataTypes": "null, integer, null, null, null, null"
+      },
+      {
+        "usdmBcId": "BiomedicalConcept_15",
+        "concept": "Diastolic Blood Pressure",
+        "bcId": "C25299",
+        "bcShortname": "DIABP",
+        "bcType": "Dataset Specialization",
+        "dataElements": "VSTESTCD, VSORRES, VSORRESU, VSPOS, VSLOC, VSLAT",
+        "dataTypes": "null, integer, null, null, null, null"
+      },
+      {
+        "usdmBcId": "BiomedicalConcept_16",
+        "concept": "Heart Rate",
+        "bcId": "C49677",
+        "bcShortname": "HR",
+        "bcType": "Dataset Specialization",
+        "dataElements": "VSTESTCD, VSORRES, VSORRESU, VSPOS, VSLOC, VSLAT",
+        "dataTypes": "null, integer, null, null, null, null"
+      }
+    ]
+  },
+  {
+    "activityId": "Activity_35",
+    "activityName": "Stand",
+    "bc": []
+  },
+  {
+    "activityId": "Activity_36",
+    "activityName": "Vital Signs Standing",
+    "bc": [
+      {
+        "usdmBcId": "BiomedicalConcept_17",
+        "concept": "Systolic Blood Pressure",
+        "bcId": "C25298",
+        "bcShortname": "SYSBP",
+        "bcType": "Dataset Specialization",
+        "dataElements": "VSTESTCD, VSORRES, VSORRESU, VSPOS, VSLOC, VSLAT",
+        "dataTypes": "null, integer, null, null, null, null"
+      },
+      {
+        "usdmBcId": "BiomedicalConcept_18",
+        "concept": "Diastolic Blood Pressure",
+        "bcId": "C25299",
+        "bcShortname": "DIABP",
+        "bcType": "Dataset Specialization",
+        "dataElements": "VSTESTCD, VSORRES, VSORRESU, VSPOS, VSLOC, VSLAT",
+        "dataTypes": "null, integer, null, null, null, null"
+      },
+      {
+        "usdmBcId": "BiomedicalConcept_19",
+        "concept": "Heart Rate",
+        "bcId": "C49677",
+        "bcShortname": "HR",
+        "bcType": "Dataset Specialization",
+        "dataElements": "VSTESTCD, VSORRES, VSORRESU, VSPOS, VSLOC, VSLAT",
+        "dataTypes": "null, integer, null, null, null, null"
+      }
+    ]
+  }
+]
