@@ -47,7 +47,7 @@ const extractSoaBc = `
             "name": name,
             "biomedicalConceptIds": biomedicalConceptIds
         };
-        $b := study.versions[].studyDesigns[].biomedicalConcepts[].{
+        $b := study.versions[].**.biomedicalConcepts[].{
             "id": id,
             "concept": name,
             "type": reference ? (

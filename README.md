@@ -18,13 +18,13 @@ npm install jsonata
 ## Usage
 1. Place a USDM JSON file in the project directory and name it sdw-lzzt-usdm.json (or update the file path in usdm-to-tdm.js).
 
-1. Run the script using Node.js:
+2. Run the script using Node.js:
 
 ```
 node usdm_bc.js -f <filepath to USDM JSON file>
 ```
 
-1. The script will process the USDM JSON file and output the converted SDTM TDM dataset to the console and as CSV.
+3. The script will process the USDM JSON file and output the converted SDTM TDM dataset to the console and as CSV.
 
 ## How It Works
 - The script uses JSONata to extract and transform data from the USDM JSON file.
@@ -62,3 +62,5 @@ The output will look like this:
 
 ## Notes
 The file `sdw-lzzt-usdm.json` contains the study definition for the CDISC Pilot Study in the USDM v3.6 format. It was created using the Study Definitions Workbench from D4K. Website: [Study Definitions Workbench](https://d4k-sdw.fly.dev/)
+
+If you want more examples, like study definitions in USDM v4.0 format, check out the DDF-RA project on GitHub in the Examples folder. Website: [DDF-RA](https://github.com/cdisc-org/ddf-ra)
